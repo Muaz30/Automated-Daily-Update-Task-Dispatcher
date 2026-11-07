@@ -46,12 +46,14 @@ The core intelligence resides in the Google Sheets Data Engine, which eliminates
 = (Base_Start_Page + (TODAY() - $A$2) * 15) & "-" & (Base_End_Page + (TODAY() - $A$2) * 15)
 ```
 
+```
 ="🗓 *" & UPPER(B2) & "*" & CHAR(10) & CHAR(10) &
 "1️⃣ *Al Quran*: /3page" & CHAR(10) &
 "- Member A : " & C2 & CHAR(10) &
 "- Member B : " & D2 & CHAR(10) & CHAR(10) &
 "2️⃣ *Hafalan Quran* = Surah / Ayat" & CHAR(10) & H2 & CHAR(10) & CHAR(10) &
 "3️⃣ *Tugasan / Bahan Bacaan*" & CHAR(10) & K2
+```
 
 🚀 Deployment & Setup Instructions
 
